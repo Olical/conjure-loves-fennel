@@ -4,16 +4,21 @@ A minimal example of using https://github.com/Olical/conjure[Conjure] to interac
 
 == Requirements
 
-Ensure you have all of the following installed via your system package manager or Neovim plugin manager.
+Ensure you have all of the following installed via your system package manager or https://github.com/junegunn/vim-plug[Neovim plugin manager].
 
- * https://fennel-lang.org/[Fennel]
- * https://love2d.org/[LÖVE]
- * https://neovim.io/[Neovim] (0.4+)
- * https://github.com/Olical/conjure[Conjure]
- * https://github.com/Olical/nvim-local-fennel[nvim-local-fennel] for project local configuration
+ * https://love2d.org/[LÖVE] (system)
+ * https://neovim.io/[Neovim] (0.4+) (system)
+ * https://github.com/Olical/conjure[Conjure] (plugin)
+ * https://github.com/Olical/nvim-local-fennel[nvim-local-fennel] for project local configuration (plugin)
 
-== Development
+== Usage
 
-To begin interacting with the project, simply open `fnl/hello/main.fnl` and get evaluating!
+To begin interacting with the project, simply open `game.fnl` and get evaluating!
 
 The `:ConjureSchool` can be used to learn how to evaluate things with Conjure.
+
+You can also execute `love .` in this directory to start the program without Neovim or the Conjure interactivity.
+
+== Acknowledgements
+
+The `stdio.fnl` is from https://gitlab.com/alexjgriffith/min-love2d-fennel[alexjgriffith/min-love2d-fennel], I would never have been able to work that part out on my own. It allows the engine to start up, boot a Fennel REPL over stdio and continue running without waiting for the Fennel REPL to exit.

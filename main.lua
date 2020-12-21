@@ -1,2 +1,4 @@
 local fennel = require("fennel")
-fennel.repl()
+table.insert(package.loaders or package.searchers, fennel.searcher)
+require("game")
+require("stdio").start()
