@@ -1,0 +1,19 @@
+= Conjure LÖVEs Fennel
+
+A minimal example of using https://github.com/Olical/conjure[Conjure] to interactively develop a https://www.lua.org/[Lua] game using https://fennel-lang.org/[Fennel] the https://love2d.org/[LÖVE] engine.
+
+== Requirements
+
+Ensure you have all of the following installed via your system package manager or Neovim plugin manager.
+
+ * https://fennel-lang.org/[Fennel]
+ * https://love2d.org/[LÖVE]
+ * https://neovim.io/[Neovim] (0.4+)
+ * https://github.com/Olical/conjure[Conjure]
+ * https://github.com/Olical/nvim-local-fennel[nvim-local-fennel] for project local configuration
+
+== Development
+
+To begin interacting with the project, simply open `fnl/hello/main.fnl` and get evaluating!
+
+The `:ConjureSchool` can be used to learn how to evaluate things with Conjure.
