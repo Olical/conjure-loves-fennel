@@ -17,8 +17,6 @@ To begin interacting with the project, simply open `game.fnl` and get evaluating
 
 The `:ConjureSchool` can be used to learn how to evaluate things with Conjure.
 
-You can also execute `love .` in this directory to start the program without Neovim or the Conjure interactivity.
-
 == Acknowledgements
 
 The `stdio.fnl` is from https://gitlab.com/alexjgriffith/min-love2d-fennel[alexjgriffith/min-love2d-fennel], I would never have been able to work that part out on my own. It allows the engine to start up, boot a Fennel REPL over stdio and continue running without waiting for the Fennel REPL to exit.
